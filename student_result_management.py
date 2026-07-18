@@ -1,4 +1,4 @@
-# Student Result Management System - Version 2
+## Student Result Management System - Version 4
 
 # Get student details
 name = input("Enter Student Name: ")
@@ -25,21 +25,34 @@ elif percentage >= 50:
 else:
     grade = "F"
 
-# Pass or Fail
-if percentage >= 35:
-    result = "PASS"
-else:
-    result = "FAIL"
+# Subject-wise Pass/Fail
+print("\n----- Subject Result -----")
 
-# Display result
-print("\n========== STUDENT RESULT ==========")
+if python >= 35:
+    print("Python  : Pass")
+else:
+    print("Python  : Fail")
+
+if maths >= 35:
+    print("Maths   : Pass")
+else:
+    print("Maths   : Fail")
+
+if english >= 35:
+    print("English : Pass")
+else:
+    print("English : Fail")
+
+# Overall Result
+if python >= 35 and maths >= 35 and english >= 35:
+    result = "Pass"
+else:
+    result = "Fail"
+
+# Display Result
+print("\n----- Student Result -----")
 print("Student Name :", name)
-print("Python Marks :", python)
-print("Maths Marks  :", maths)
-print("English Marks:", english)
-print("------------------------------------")
 print("Total Marks  :", total)
 print("Percentage   :", round(percentage, 2), "%")
 print("Grade        :", grade)
-print("Result       :", result)
-print("====================================")
+print("Overall Result :", result)
