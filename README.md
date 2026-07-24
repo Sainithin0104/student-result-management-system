@@ -1,28 +1,25 @@
 # 🎓 Student Result Management System
 
-A Python project to manage student marks, calculate percentage, grades, and results.
+A Python project that helps manage student records efficiently.
 
-## ✨ Features
+## Features
+- ➕ Add Student
+- 📊 Calculate Total and Percentage
+- 🏅 Generate Grade and Rank
+- ✅ Pass/Fail Result
+- 💬 Remarks Generation
+- 🔍 Search Student by Roll Number
+- 📈 Class Report
+- 💾 File Handling
+- 🏆 Find Class Topper
 
-- Enter student name
-- Enter marks for three subjects
-- Calculate total marks
-- Calculate percentage
-- Display grade (A+, A, B, C, D, F)
-- Display Pass/Fail status
-
-## 🛠 Technologies Used
-
+## Technologies Used
 - Python
+- File Handling
+- Dictionaries
+- Lists
+- Loops
+- Conditional Statements
 
-## 📂 Project File
-
-- student_result_management.py
-
-## 🚀 Future Improvements
-
-- Input validation
-- Multiple student support
-- File handling
-- Database integration
-- GUI using Tkinter
+## Author
+Sai Nithin
