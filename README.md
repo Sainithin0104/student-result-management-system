@@ -22,4 +22,7 @@ A Python project that helps manage student records efficiently.
 - Conditional Statements
 
 ## Author
-Sai Nithin
+
+**Sai Nithin**
+
+GitHub: https://github.com/Sainithin0104
